@@ -1,0 +1,21 @@
+html {
+  font-family: "Roboto", sans-serif;
+  @apply select-none;
+}
+
+::-webkit-scrollbar {
+  @apply w-2;
+  &-track {
+    @apply bg-[#f1f1f1];
+  }
+  &-thumb {
+    @apply bg-[#a8a8a8];
+    &:hover {
+      @apply bg-[#787878];
+    }
+  }
+}
+
+body {
+  @apply bg-gradient-to-b bg-gray-200 bg-no-repeat bg-cover from-[#5c586f] to-[#292833] h-screen transition-colors duration-500;
+}
