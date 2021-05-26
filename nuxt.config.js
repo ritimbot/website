@@ -8,7 +8,7 @@ export default {
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { name: "theme-color", content: "#30343b" },
+      { name: "theme-color", content: "#17161d" },
       { name: "keywords", content: "Türkçe, Müzik, Eğlence, Sosyal" },
       { name: "author", content: "Ritim" },
       {
@@ -21,8 +21,10 @@ export default {
   },
   pwa: {
     manifest: {
-      name: "Emoji • Discord Bot",
-      theme_color: "#30343b",
+      name: "Ritim • Discord Bot",
+      theme_color: "#17161d",
+      description:
+        "Sunucunda özgürce kullanabileceğin ritim bot, hiç sınırlama olmadan, playlist limitsiz ve akıcı bir müzik deneyimi sunar.",
     },
   },
   css: ["@/assets/css/main.scss"],
