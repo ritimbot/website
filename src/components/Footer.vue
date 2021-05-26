@@ -1,35 +1,23 @@
 <template>
   <section
-    class="flex flex-col justify-between w-full p-1.5 bg-gray-300 md:px-32 gap-y-2 md:flex-row"
+    class="flex flex-col w-full p-16 bg-gradient-to-b bg-no-repeat bg-cover from-[#3d3a4b] to-[#1c1b24] gap-y-2"
   >
-    <div class="flex items-center justify-center">
-      <h1 class="text-center text-gray-800 md:text-left">
-        © {{ new Date().getFullYear() }} Emoji — Website by
-        <a
-          href="https://tarikcoskun.xyz"
-          target="_blank"
-          draggable="false"
-          class="text-gray-800 border-b-2 border-gray-400 hover:border-gray-600"
-          >Tarık Coşkun</a
-        >
-      </h1>
-    </div>
-    <div class="flex justify-center gap-2">
+    <div class="max-w-4xl mx-auto text-center">
+      <h1 class="text-4xl font-bold text-white">Tamam, yalan söyledik.</h1>
+      <p class="mt-3 text-xl font-medium text-gray-400">
+        Açıklaması o kadar da zor değilmiş, ama olsun! Artık her şeyi
+        biliyorsun.
+        <br />
+        Sen de Ritim'i sunucuna ekle, eğlenceye başla!
+      </p>
       <a
-        v-for="account in contact"
-        :key="account"
-        :href="account.url"
-        target="_blank"
+        class="flex mt-6 items-center text-center mx-auto font-medium justify-center w-64 gap-2 p-2.5 text-xl text-gray-300 bg-[#17161d] rounded-xl shadow-md hover:shadow-lg transition duration-500"
+        href="https://ritim.xyz/davet"
         draggable="false"
-        class="flex items-center p-1 text-gray-700 hover:text-gray-900"
+        target="_blank"
       >
-        <unicon
-          :name="account.icon"
-          fill="currentColor"
-          :width="account.icon === 'topgg' ? 26 : 28"
-          :height="account.icon === 'topgg' ? 26 : 28"
-        />
-      </a>
+        İkna oldum</a
+      >
     </div>
   </section>
 </template>

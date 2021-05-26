@@ -9,11 +9,13 @@ export default {
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { name: "theme-color", content: "#30343b" },
+      { name: "keywords", content: "Türkçe, Müzik, Eğlence, Sosyal" },
+      { name: "author", content: "Ritim" },
       {
         name: "description",
         hid: "description",
         content:
-          "A Discord bot which lets you find new emojis to your server, store them. You can even send animated emotes using the bot. Give it a try!",
+          "Sunucunda özgürce kullanabileceğin ritim bot, hiç sınırlama olmadan, playlist limitsiz ve akıcı bir müzik deneyimi sunar.",
       },
     ],
   },
