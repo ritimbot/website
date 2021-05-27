@@ -12,7 +12,7 @@
       </p>
       <a
         class="flex mt-6 items-center text-center mx-auto font-medium justify-center w-64 gap-2 p-2.5 text-xl text-gray-300 bg-[#17161d] rounded-xl shadow-md hover:shadow-lg transition duration-500"
-        href="https://ritim.xyz/davet"
+        href="https://discord.com/oauth2/authorize?client_id=711411719922253884&scope=bot&permissions=1110822208"
         draggable="false"
         target="_blank"
       >
