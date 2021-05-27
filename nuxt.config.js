@@ -5,6 +5,10 @@ export default {
   target: "static",
   head: {
     title: "Ritim • Müzik Botu",
+    link: 
+    [
+        { rel: 'icon', type: 'image/png', href: 'https://cdn.discordapp.com/avatars/711411719922253884/26d56958720f619808abfdd751a8e3c7.png?size=512' }
+    ] ,
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
