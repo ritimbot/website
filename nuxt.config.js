@@ -19,14 +19,9 @@ export default {
       },
     ],
   },
-  modules: [
-    ['@nuxtjs/redirect-module', {
-      
-    }]
+  serverMiddleware: [
+    {path: "/", handler: './src/server/middleware/redirects'}
   ],
-  redirect: [
-  { from: '^/dbl', to: 'https://top.gg/bot/711411719922253884/' }
-],
   pwa: {
     manifest: {
       name: "Ritim • Discord Bot",
