@@ -19,12 +19,9 @@ export default {
       },
     ],
   },
-  router: {
-    middleware: ["redirects"]
-  },
   pwa: {
     manifest: {
-      name: "Ritim • Discord Bot",
+      name: "Ritim • Müzik botu",
       theme_color: "#17161d",
       description:
         "Sunucunda özgürce kullanabileceğin ritim bot, hiç sınırlama olmadan, playlist limitsiz ve akıcı bir müzik deneyimi sunar.",
