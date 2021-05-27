@@ -19,9 +19,9 @@ export default {
       },
     ],
   },
-  serverMiddleware: [
-    {path: "/", handler: './src/server/middleware/redirects'}
-  ],
+  router: {
+    middleware: ["redirects"]
+  },
   pwa: {
     manifest: {
       name: "Ritim • Discord Bot",
