@@ -7,7 +7,7 @@
       :class="{ 'md:flex-row-reverse': index % 2 === 1 }"
     >
       <img
-        :src="'https://ritim.xyz/public/' + example.img"
+        :src="'https://ritim.xyz/' + example.img"
         :alt="example.img"
         class="md:w-1/2"
       />

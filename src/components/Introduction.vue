@@ -21,7 +21,7 @@
       <div class="flex flex-col gap-2 md:gap-4 md:flex-row">
         <a
           class="group flex items-center font-medium justify-center w-64 mt-2 gap-2 p-2.5 text-xl text-gray-300 bg-[#17161d] rounded-xl shadow-md hover:shadow-lg transition duration-500"
-          href="https://ritim.xyz/davet"
+          href="https://discord.com/oauth2/authorize?client_id=711411719922253884&scope=bot&permissions=1110822208"
           draggable="false"
           target="_blank"
         >
@@ -35,7 +35,7 @@
         /></a>
         <a
           class="group flex items-center font-medium justify-center w-64 mt-2 gap-2 p-2.5 text-xl text-gray-300 bg-[#17161d] rounded-xl shadow-md hover:shadow-lg transition duration-500"
-          href="https://ritim.xyz/oy"
+          href="https://top.gg/bot/711411719922253884/vote"
           draggable="false"
           target="_blank"
         >
