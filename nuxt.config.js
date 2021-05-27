@@ -25,7 +25,7 @@ export default {
     }]
   ],
   redirect: [
-  { from: '/dbl', to: 'https://top.gg/bot/711411719922253884/' }
+  { from: '^/dbl', to: 'https://top.gg/bot/711411719922253884/' }
 ],
   pwa: {
     manifest: {
