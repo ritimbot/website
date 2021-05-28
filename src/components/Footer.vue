@@ -21,32 +21,3 @@
     </div>
   </section>
 </template>
-
-<script>
-export default {
-  data() {
-    return {
-      contact: [
-        {
-          color: "#5865F2",
-          url: "https://discord.gg/U5v2csS",
-          name: "Support Server",
-          icon: "discord",
-        },
-        {
-          color: "#EB459E",
-          url: "https://top.gg/bot/emoji",
-          name: "Discord Bot List",
-          icon: "topgg",
-        },
-        {
-          color: "#ED4245",
-          url: "mailto:emojidestek@gmail.com",
-          name: "Mail",
-          icon: "envelope-alt",
-        },
-      ],
-    };
-  },
-};
-</script>
