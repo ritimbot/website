@@ -39,7 +39,7 @@
           draggable="false"
           target="_blank"
         >
-          Donate
+          Vote
           <unicon
             class="duration-[400ms] ease-out transform group-hover:translate-x-[6px]"
             name="arrow-right"
