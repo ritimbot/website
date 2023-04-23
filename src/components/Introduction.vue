@@ -4,28 +4,28 @@
   >
     <div class="-ml-24">
       <img
-        src="https://cdn.discordapp.com/avatars/711411719922253884/26d56958720f619808abfdd751a8e3c7.png?size=512"
+        src="https://cdn.discordapp.com/avatars/1028730329499963472/cd65c86cb27f3f12876ea4d993cc738a.webp?size=512"
         alt="ritimlogo"
         style="width: 200%"
       />
     </div>
     <div class="flex flex-col col-span-3 gap-3">
       <h1 class="text-5xl font-black text-white">
-        Sonunda, işe yarar bir müzik botu
+        Finally, a useful music bot
       </h1>
       <p class="text-2xl font-medium text-gray-400 md:text-3xl">
-        Sunucunda özgürce kullanabileceğin Ritim, hiç sınırlama olmadan,
-        playlist limitsiz ve akıcı bir müzik deneyimi sunar, sana da dinlemek
-        kalır.
+        Ritim that you can use freely on your server, without any limitations,
+        playlist offers an unlimited and fluid music experience, and you get to listen
+        remains.
       </p>
       <div class="flex flex-col gap-2 md:gap-4 md:flex-row">
         <a
           class="group flex items-center font-medium justify-center w-64 mt-2 gap-2 p-2.5 text-xl text-gray-300 bg-[#17161d] rounded-xl shadow-md hover:shadow-lg transition duration-500"
-          href="https://discord.com/oauth2/authorize?client_id=711411719922253884&scope=bot&permissions=1110822208"
+          href="https://discord.com/api/oauth2/authorize?client_id=711411719922253884&permissions=57877971988288&scope=applications.commands%20bot"
           draggable="false"
           target="_blank"
         >
-          Sunucuna ekle
+          Add to your server
           <unicon
             class="duration-[400ms] ease-out transform group-hover:translate-x-[6px]"
             name="arrow-right"
@@ -39,7 +39,7 @@
           draggable="false"
           target="_blank"
         >
-          Oy ver
+          Donate
           <unicon
             class="duration-[400ms] ease-out transform group-hover:translate-x-[6px]"
             name="arrow-right"
