@@ -1,0 +1,23 @@
+[[redirects]]
+  from = "/invite"
+  to = "https://discord.com/api/oauth2/authorize?client_id=711411719922253884&permissions=57877971988288&scope=applications.commands%20bot"
+  status = 200
+  force = true 
+
+[[redirects]]
+  from = "/discord"
+  to = "https://discord.gg/U6JB76wTde"
+  status = 200
+  force = true 
+  
+[[redirects]]
+  from = "/donate"
+  to = "https://ko-fi.com/ritim"
+  status = 200
+  force = true 
+  
+[[redirects]]
+  from = "/vote"
+  to = "https://top.gg/bot/711411719922253884/vote"
+  status = 200
+  force = true 
