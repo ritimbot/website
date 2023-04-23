@@ -7,7 +7,7 @@
       :class="{ 'md:flex-row-reverse': index % 2 === 1 }"
     >
       <img
-        :src="'https://ritim.xyz/' + example.img"
+        :src="'https://ritimbot.netlify.app/' + example.img"
         :alt="example.img"
         class="md:w-1/2"
       />
@@ -32,21 +32,21 @@ export default {
       examples: [
         {
           img: "playcommand.webp",
-          title: "Ritim'i açıklamaya çalışmak, kullanmaktan daha zor.",
+          title: "Trying to explain Ritim is more difficult than using it.",
           content:
-            'Şaka değil, tek yapman gereken şey <code class="px-1 py-px bg-gray-300 rounded">--çal</code> komutunu kullanıp arkana yaslanmak. Ritim senin istediğin şarkıyı bulur.',
+            'No joke, all you have to do is use the <code class="px-1 py-px bg-gray-300 rounded">/play</code> command and sit back. Ritim will find the song you want.',
         },
         {
           img: "playlistcommand.webp",
-          title: "Limitsiz playlist = hiç bitmeyen bir müzik keyfi.",
+          title: "Unlimited playlists = never-ending music enjoyment.",
           content:
-            "Aşırı fazla şarkı bulunduran bir playlist'in varsa, \"kabul eder mi, şarkımı keser mi, ah tüh!\" etme, Ritim'in sınırsız playlist özelliği ile müziklerin hep seninle.",
+            "If you have a playlist with too many songs, don't worry about \"will it accept, will it cut my song?\", your music is always with you with Ritim's unlimited playlist feature.",
         },
         {
           img: "fast.webp",
-          title: "Düşük gecikme.",
+          title: "Low latency.",
           content:
-            "Müziğim takılacak mı derdi yok! Kaliteli sunucularımızla Ritim kesintisiz yanında.",
+            "No worries if my music will get stuck! Ritim is with you uninterrupted with our quality servers.",
         },
       ],
     };
